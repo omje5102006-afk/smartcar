@@ -229,7 +229,7 @@ Your duties:
                 customer_name: customer_name.trim(),
                 customer_phone: digits,
                 customer_email: customer_email || null,
-              car_id: matchedCar?.id ?? (isUUID && car_id ? car_id : null),
+                car_id: matchedCar?.id ?? (isUUID && car_id ? car_id : null),
                 preferred_date: preferred_date || null,
                 message: notes,
                 source: 'chatbot',
